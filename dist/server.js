@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-/// ==========================================================
+// ==========================================================
 // 🌐 Core Imports
 // ==========================================================
 const express_1 = __importDefault(require("express"));
@@ -60,6 +60,10 @@ const createApp = () => {
     app.use("/api/auth", authRoutes_1.default);
     app.use("/api/payment", paymentRoutes_1.default);
     app.use("/api/orders", ordersRoutes_1.default);
+    // ---------------- ROOT ROUTE ----------------
+    app.get("/", (_req, res) => {
+        res.status(200).send("✅ Yallah Pharmacy Backend is Live and Running!");
+    });
     // ---------------- HEALTH CHECK ----------------
     app.get("/api/health", (_req, res) => {
         const response = {
@@ -67,7 +71,7 @@ const createApp = () => {
             message: "Backend operational",
             uptime: Math.floor(process.uptime()),
             environment: NODE_ENV,
-            database: "Not configured", // Replace when DB pool ready
+            database: "Not configured", // Replace with DB connection status if needed
             timestamp: new Date().toISOString(),
         };
         res.status(200).json(response);

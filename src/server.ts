@@ -1,4 +1,4 @@
-/// ==========================================================
+// ==========================================================
 // 🌐 Core Imports
 // ==========================================================
 import express, { Express, Request, Response, NextFunction } from "express";
@@ -88,6 +88,11 @@ const createApp = (): Express => {
   app.use("/api/payment", paymentRoutes);
   app.use("/api/orders", orderRoutes);
 
+  // ---------------- ROOT ROUTE ----------------
+  app.get("/", (_req: Request, res: Response): void => {
+    res.status(200).send("✅ Yallah Pharmacy Backend is Live and Running!");
+  });
+
   // ---------------- HEALTH CHECK ----------------
   app.get("/api/health", (_req: Request, res: Response): void => {
     const response: HealthCheckResponse = {
@@ -95,10 +100,9 @@ const createApp = (): Express => {
       message: "Backend operational",
       uptime: Math.floor(process.uptime()),
       environment: NODE_ENV,
-      database: "Not configured", // Replace when DB pool ready
+      database: "Not configured", // Replace with DB connection status if needed
       timestamp: new Date().toISOString(),
     };
-
     res.status(200).json(response);
   });
 
@@ -135,11 +139,6 @@ const createApp = (): Express => {
 // ==========================================================
 const startServer = (): void => {
   const app = createApp();
-
-  app.get("/", (req, res) => {
-  res.status(200).send("✅ Yallah Pharmacy Backend is Live and Running!");
-});
-
 
   const server = app.listen(PORT, () => {
     console.log(`✅ Server running on port ${PORT}`);
