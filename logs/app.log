@@ -1,0 +1,48 @@
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:06:57"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:06:57"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:07:20"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:07:20"}
+{"level":"info","message":"User logged in: odhiamboaustine1@students.jkuat.ac.ke","service":"pharmacy-api","timestamp":"2025-11-02 16:07:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:13:07:28 +0000] \"POST /api/auth/login HTTP/1.1\" 200 381 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"pharmacy-api","timestamp":"2025-11-02 16:07:28"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:07:35"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:07:35"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:19:40"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:19:40"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:21:11"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:21:11"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:21:23"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:21:23"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:24:54"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:24:54"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:29:13"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:29:13"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:33:48"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:33:48"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 16:33:54"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 16:33:54"}
+{"level":"info","message":"User logged in: odhiamboaustine1@students.jkuat.ac.ke","service":"pharmacy-api","timestamp":"2025-11-02 16:56:42"}
+{"level":"info","message":"::1 - - [02/Nov/2025:13:56:42 +0000] \"POST /api/auth/login HTTP/1.1\" 200 381 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0\"","service":"pharmacy-api","timestamp":"2025-11-02 16:56:42"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 17:11:35"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 17:11:35"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 17:25:49"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 17:25:49"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 17:30:20"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 17:30:20"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 17:30:22"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 17:30:22"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 23:52:42"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 23:52:42"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-02 23:52:54"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-02 23:52:54"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 12:54:18"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 12:54:18"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 12:54:31"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 12:54:31"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 13:11:46"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:11:46"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 13:35:26"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:35:26"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 13:38:28"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:38:28"}
+{"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 13:52:39"}
+{"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:52:39"}
