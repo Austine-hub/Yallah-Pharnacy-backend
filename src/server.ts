@@ -136,6 +136,11 @@ const createApp = (): Express => {
 const startServer = (): void => {
   const app = createApp();
 
+  app.get("/", (req, res) => {
+  res.status(200).send("✅ Yallah Pharmacy Backend is Live and Running!");
+});
+
+
   const server = app.listen(PORT, () => {
     console.log(`✅ Server running on port ${PORT}`);
     console.log(`📦 Environment: ${NODE_ENV}`);
