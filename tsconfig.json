@@ -1,25 +1,37 @@
 {
   "compilerOptions": {
+    /* === Target and Module System === */
     "target": "ES2022",
     "module": "CommonJS",
     "moduleResolution": "Node",
     "moduleDetection": "force",
 
+    /* === Module and Interop === */
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "verbatimModuleSyntax": false,
 
+    /* === Project Structure === */
     "rootDir": "./src",
     "outDir": "./dist",
     "sourceMap": true,
 
+    /* === Type Checking === */
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+
+    /* ✅ NEW: Ensure Node types are included */
+    "types": ["node"],
+
+    /* ✅ NEW: Ensure typeRoots can detect installed @types packages */
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["src/**/*", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
+
+
 
