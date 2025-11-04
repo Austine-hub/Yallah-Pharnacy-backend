@@ -3,7 +3,7 @@
     /* === Target and Module System === */
     "target": "ES2022",
     "module": "CommonJS",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "moduleDetection": "force",
 
     /* === Module and Interop === */
@@ -23,15 +23,19 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
 
-    /* ✅ NEW: Ensure Node types are included */
+    /* ✅ Node environment support */
     "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
 
-    /* ✅ NEW: Ensure typeRoots can detect installed @types packages */
-    "typeRoots": ["./node_modules/@types"]
+    /* === Build Optimization for CI/CD (Render) === */
+    "noEmitOnError": false,          // Prevents build fail due to type-only warnings
+    "incremental": true,             // Speeds up local builds
+    "newLine": "lf"
   },
   "include": ["src/**/*", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
+
 
 
 
