@@ -46,3 +46,4 @@
 {"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:38:28"}
 {"level":"info","message":"✅ Server running on port 5000","service":"pharmacy-api","timestamp":"2025-11-03 13:52:39"}
 {"level":"info","message":"Environment: development","service":"pharmacy-api","timestamp":"2025-11-03 13:52:39"}
+{"level":"info","message":"[LOGIN] User logged in: odhiamboaustine1@students.jkuat.ac.ke","service":"pharmacy-api","timestamp":"2025-11-04 06:24:05"}
